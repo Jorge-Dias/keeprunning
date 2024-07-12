@@ -1,0 +1,125 @@
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.itens{
+    margin-right: 120px;
+    margin-left: auto; 
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.logok {
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.d-flex{
+    
+}
+
+.menu {
+    color: white !important; 
+    margin-inline: 8px;    
+}
+
+.menu:hover {
+    color: rgb(44, 193, 239) !important;  
+
+}
+
+button {
+    color: white !important; 
+    border: none !important;  
+      
+}
+
+.mv{padding-top: 2em;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+.tenis{
+    
+    width: auto;
+    padding: 17px;
+}
+
+.tenis:hover{
+    width: auto;
+    padding: 17px;
+    
+    cursor: pointer;
+}
+
+.imagem:hover{
+    width: 235px;
+    height: 235px;
+
+}
+
+body div div div img{
+    width: 230px;
+    height: 230px;
+    transition: 0.2s;
+}
+
+div h2{
+    color: rgb(58, 56, 56);
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.valor{
+    color: green;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: small;
+
+    & h3{
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+
+
+
+.icons{
+    color: white;
+}
+
+
+
+
+
+
